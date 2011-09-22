@@ -34,32 +34,32 @@
           type: 'coffee',
           out: 'server-lib'
         },
-        'bootstrap/**/*.coffee': {
+        'client/bootstrap/**/*.coffee': {
           type: 'coffee',
           out: 'compiled/bootstrap',
           package: true
         },
-        'models/**/*.coffee': {
+        'client/models/**/*.coffee': {
           type: 'coffee',
           out: 'compiled/models',
           package: true
         },
-        'controllers/**/*.coffee': {
+        'client/controllers/**/*.coffee': {
           type: 'coffee',
           out: 'compiled/controllers',
           package: true
         },
-        'views/**/*.coffee': {
+        'client/views/**/*.coffee': {
           type: 'coffee',
           out: 'compiled/views',
           package: true
         },
-        'client-lib/**/*.coffee': {
+        'client/client-lib/**/*.coffee': {
           type: 'coffee',
           out: 'compiled/lib',
           package: true
         },
-        'templates/**/*.html': {
+        'client/templates/**/*.html': {
           type: 'template',
           out: 'compiled/templates',
           package: true

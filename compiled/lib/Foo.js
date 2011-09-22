@@ -5,7 +5,8 @@
       this.bar = bar;
     }
     Foo.prototype.explain = function() {
-      return console.log('Put your own custom libraries/classes in this package');
+      console.log('Put your own custom libraries/classes in this package');
+      return console.log('something else');
     };
     return Foo;
   })();

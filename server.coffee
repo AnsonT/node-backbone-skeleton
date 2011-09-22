@@ -5,7 +5,7 @@ Watcher   = require('./util/watcher').watcher
 Settings  = require 'settings'
 
 templates      = {}
-settings       = new Settings(path.join __dirname, 'config/environment.js').getEnvironment()
+settings       = new Settings(path.join __dirname, 'config/environment.coffee').getEnvironment()
 watcher        = new Watcher settings.watcherOptions, templates
 
 watcher.compileTemplates()
